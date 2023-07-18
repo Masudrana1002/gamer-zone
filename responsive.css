@@ -52,5 +52,45 @@
     font-size: 1rem;
 }
  /* Banner section style end */
+/* Gamer section style start */
+.gamer-section{
+    flex-direction: column;
+}
+.gamer-photo{
+    width: 100%;
+    height: 200px;
+    margin: 20px 20%;
+}
+.gamer-content{
+    width:100%;
+    text-align: center;
+}
+.gamer-content h2{
+    font-size:2rem ;
+}
+.gamer-content p{
+    font-size: 1rem;
+}
+.gamer-content h3{
+    font-size: 1.20em;
+}
+/* Gamer section style end */
+/* Online Games Funny Videos section style start */
+.videos-content h1{
+    font-size: 2rem;
+}
+.videos-content p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.videos{
+    grid-template-columns: 1fr;
+    row-gap: 130px;
+    width: 80%;
+    margin: auto;
+}
+/* Online Games Funny Videos section style  */
+
+
 }
     /* small vieports style End */
