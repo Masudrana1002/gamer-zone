@@ -13,6 +13,44 @@
     }
      /* nav bar start */
     /* Banner section style start */
-
+    .bennar-section{
+        flex-direction: column-reverse;
+        width:100%;
+        margin: 0 auto;
     }
+    .bannar-photo {
+        width:80%;
+        margin: 0 auto; 
+        margin-bottom: 20px; 
+    }
+    .content  {
+        width:100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .bennar-content{
+        width:80%;
+        margin: 0 auto; 
+        margin-bottom: 10px; 
+    }
+    .bannar-photo img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .bennar-content h2{
+        font-size: 2.50rem;
+}
+    .bennar-content h1{
+        font-size: 3rem;
+}
+    .bennar-content p{
+        font-size: 1rem;
+}
+.banner-btn button{
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+ /* Banner section style end */
+}
     /* small vieports style End */
