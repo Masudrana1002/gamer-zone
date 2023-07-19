@@ -230,9 +230,10 @@ margin: 0 auto;
 .videos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0px auto;
+    margin: 20px auto;
     justify-content: space-around;
     align-items: center;
+    row-gap: 15px;
    
 }
 .videos-card{
@@ -256,7 +257,6 @@ margin: 0 auto;
 /* Play Instantly, No Downloads No Installs.  section style start */
 .play-instantly{
     max-width: 1920px;
-    height: 700px;
     margin: 60px auto;
     display: flex;
     align-items: center;
@@ -302,16 +302,99 @@ margin: 0 auto;
     height: 100%;
 }
 /* Play Instantly, No Downloads No Installs.  section style end */
+.play-any-content{
+    width: 40%;
+    text-align: left;
+    margin: 0px auto;
+}
 
 .play-any-content h2{
-    text-align: right;
     font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
 }
-.play-any-content{
-    color: #0B0223;
-    text-align: right;
+.play-any-content p{
+    color: #534C64;
     font-size: 1.12rem;
     font-weight: 400;
 }
+.play-any-main-img{
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+}
+.play-any-main-img img{
+    width: 100%;
+    height: 100%;
+}
+.play-any-pic-sec{
+    width: 318.5px;
+    height: 365.083px;
+    position: relative;
+    top: -240px;
+    right: -520px;
+}
+.play-any-pic-sec img{
+    width: 100%;
+    height: 100%;
+}
+/* Play Instantly, No Downloads No Installs.  section style end */
+/* careers section start */
+.careers{
+    max-width: 1920px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 30px;
+}
+.careers-contant{
+    width: 40%;
+    margin: 0 auto;
+}
+.content-dewscription h2{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.content-dewscription p{
+    color: #FFF;
+    font-size: 1.12rem;
+    font-weight: 400;
+    width: 680px;
+   
+}
+
+
+.careers-job{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.career-one{
+    text-align: left;
+}
+.career-tow{
+    text-align:right;
+}
+.careers-job p{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+.careers-photo{
+    background-image: url("./images/Group\ 14.png");
+    width: 45%;
+    height: 600px;
+
+}
+.careers-photo img{
+    width: 100%;
+    height: 100%;
+}
+/* careers section end */
