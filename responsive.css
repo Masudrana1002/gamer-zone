@@ -1,6 +1,6 @@
 /* small vieports style start */
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 480px){
     /* nav bar start */
     .nav-bar
     {
@@ -79,7 +79,7 @@
 .Videos-section{
     width: 350px;
     height: 1800px;
-    margin: 60px auto;
+    margin: 90px auto;
 }
 .videos-content h1{
     font-size: 2rem;
@@ -118,12 +118,11 @@
     width: 250px;
     height: 400px;
     margin: 0 auto;
-    position: relative;
 }
 .play-instantly-content , .play-any-content{
-    width: 70%;
+    width: 95%;
     height: 400px;
-    margin: 0px auto;
+    margin: 50px auto;
    
     
 }
@@ -139,7 +138,8 @@
 .sec-img{
     width: 100.5px;
     height: 100.083px;
-    position: sticky;
+    left: -30px;
+    bottom: -50px;
        
     }
 
@@ -150,7 +150,9 @@
 .play-any-pic-sec{
     width: 100.5px;
     height: 100.083px;
-    position:sticky;
+    right: -30px;
+    bottom: -50px;
+  
     }
     
 
@@ -222,15 +224,264 @@
     .Terms , .icon-footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        width: 80%;
+        width: 40%;
         margin: 20pa auto;
         gap: 10px;
+        align-content: center;
        
     }
     .Terms small{
         font-size: 0.75rem;
     }
+
+    .copy-right{
+        width: 80%;
+        
+    }
 /* footer end */
 
 }
     /* small vieports style End */
+
+    /* Medium Vieports */
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        .nav-bar
+        {
+            flex-direction: column;
+            width: 100%;
+            height: 280px;
+        }
+        .manus{
+            flex-direction: column;
+        }
+         /* nav bar start */
+        /* Banner section style start */
+        .bennar-section{
+            flex-direction: column-reverse;
+            width:100%;
+            margin: 0 auto;
+        }
+        .bannar-photo {
+            width:80%;
+            margin: 0 auto; 
+            margin-bottom: 20px; 
+        }
+        .content  {
+            width:100%;
+            height: 400px;
+            margin: 0 auto;
+        }
+        .bennar-content{
+            width:80%;
+            margin: 0 auto; 
+            margin-bottom: 10px; 
+        }
+        .bannar-photo img{
+            width: 100%;
+            height: 100%;
+            
+        }
+        .bennar-content h2{
+            font-size: 2.50rem;
+    }
+        .bennar-content h1{
+            font-size: 3rem;
+    }
+        .bennar-content p{
+            font-size: 1rem;
+    }
+    .banner-btn button{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+     /* Banner section style end */
+    /* Gamer section style start */
+    .gamer-section{
+        flex-direction: column;
+    }
+    .gamer-photo{
+        width: 100%;
+        height: 200px;
+        margin: 20px auto;
+    }
+    .gamer-content{
+        width:100%;
+        text-align: center;
+    }
+    .gamer-content h2{
+        font-size:2rem ;
+    }
+    .gamer-content p{
+        font-size: 1rem;
+    }
+    .gamer-content h3{
+        font-size: 1.20em;
+    }
+    /* Gamer section style end */
+    /* Online Games Funny Videos section style start */
+    .Videos-section{
+        width: 350px;
+        height: 1800px;
+        margin: 90px auto;
+    }
+    .videos-content h1{
+        font-size: 2rem;
+    }
+    .videos-content p{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .videos{
+        grid-template-columns: 1fr ;
+        row-gap:50px;
+       justify-content: center;
+        
+        align-items: center;
+    }
+    /* Online Games Funny Videos section style end  */
+    
+    .play-instantly{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        
+    }
+    .play-instantly-content h2 ,.play-any-content h2{
+        text-align: center;
+        font-size: 1.50rem;
+        font-weight: 700;
+    }
+    .play-instantly-content p ,.play-any-content p{
+        text-align: center;
+        font-size: 1rem;
+      
+    }
+    .play-instantly-photo {
+        width: 250px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .play-instantly-content , .play-any-content{
+        width: 95%;
+        height: 400px;
+        margin: 50px auto;
+       
+        
+    }
+    .main-img ,.play-any-main-img{
+        width: 100%;
+        height:400px;
+        margin: 0 auto;
+    }
+    .main-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-img{
+        width: 100.5px;
+        height: 100.083px;
+        left: -30px;
+        bottom: -50px;
+           
+        }
+    
+        .play-any-pic-sec img{
+        width: 100%;
+        height: 100%;
+    }
+    .play-any-pic-sec{
+        width: 100.5px;
+        height: 100.083px;
+        right: -30px;
+        bottom: -50px;
+      
+        }
+        
+    
+    .sec-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* careers section start */
+    .careers{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .careers-contant{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .content-dewscription h2{
+        font-size: 2rem;
+    ;}
+    
+    .content-dewscription p{
+        width:80%;
+        font-size: 0.95rem;
+    }
+    .careers-job p{
+    
+        font-size: 0.65rem;
+    }
+    
+    .careers-photo{
+        width: 100%;
+        height: 300px;
+        margin: 0px auto;
+    
+    }
+    .careers-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .game-items{
+        grid-template-columns: 1fr;
+        width: 100%;
+        align-items: center;
+    }
+    .game-item{
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        
+        font-size: 0.75rem;
+    }
+    .game-item p{
+        font-size: 0.75rem;
+        }
+        .items-photo{
+            width: 30px;
+            height: 30px;
+        }
+        .game-item img{
+            width: 100%;
+            height: 100%;
+        }
+        /* footer */
+        .footer{
+            width: 100%;
+        }
+        .Terms , .icon-footer {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 40%;
+            margin: 20pa auto;
+            gap: 10px;
+            align-content: center;
+           
+        }
+        .Terms small{
+            font-size: 0.75rem;
+        }
+    
+        .copy-right{
+            width: 80%;
+            
+        }
+    /* footer end */
+    
+    }
+        
