@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+font-family: 'Work Sans';
+}
+
 /* common icon style start  */
 .nav-icon{
     width: 30px;
@@ -79,7 +83,7 @@
 }
 
 .follow{
-    width: 220px;
+    width: 250px;
     height: 45px;
     display: flex;
     align-items: center;
@@ -209,51 +213,84 @@ margin: 0 auto;
     margin-top: 20px;
 }
 /* Gamer section style end */
-/* Online Games Funny Videos section style start */
-.Videos-section{
+
+.online-game{
     max-width: 1440px;
-    height: 600px;
+    height: 500px;
     margin: 60px auto;
-}
-.videos-content{
-    text-align: center;
-    color: #0B0223;
-}
-.videos-content h1{
-    font-size: 3rem;
-}
-.videos-content p{
-    font-size: 1.25rem;
-    color: #534C64;
-    font-weight: 400;
-}
-.videos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 20px auto;
-    justify-content: space-around;
-    align-items: center;
-    row-gap: 15px;
-   
+    row-gap: 10px;
+
 }
-.videos-card{
-    width: 320px;
-    height: 380px;
-    margin: 0 auto;
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 342px;
+    height: 400px;
    
-}
-.videos-card img{
+  }
+  .image-container img{
     width: 100%;
     height: 100%;
-   
-}
-.videos-card p{
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .plye-one{
+    width: 48px;
+    height: 48px;
+  }
+  .plye-one img {
+    width: 100%;
+    height: 100%;
+  }
+  .text-overlay p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-overlay p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .image-container:hover .text-overlay {
+    opacity: 1;
+    border-radius: 16px;
+    border: 3px solid #FF42A5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),
+  }
+  .video-des{
     color: #534C64;
-    font-size: 1.25rem;
-    font-weight: 500;
-    
-}
-/* Online Games Funny Videos section style end */
+        font-size: 20px;
+        font-weight: 500;
+  }
+
 /* Play Instantly, No Downloads No Installs.  section style start */
 .play-instantly{
     max-width: 1920px;
@@ -457,7 +494,9 @@ margin: 0 auto;
         justify-content: center;
         flex-direction: column;
         background: #0B0223;
-        row-gap: 20px;
+        row-gap: 10px;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
     .Terms{
         display: grid;
@@ -504,7 +543,9 @@ margin: 0 auto;
         justify-content: space-around;
         width: 500px;
 
+
     }
     /* footer section end */
-
+   
+    
 
