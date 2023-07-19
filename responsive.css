@@ -419,11 +419,11 @@
     
     .content-dewscription p{
         width:80%;
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
     .careers-job p{
     
-        font-size: 0.65rem;
+        font-size: 1rem;
     }
     
     .careers-photo{
@@ -438,7 +438,7 @@
     }
     
     .game-items{
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(3, 1fr);
         width: 100%;
         align-items: center;
     }
@@ -460,28 +460,186 @@
             width: 100%;
             height: 100%;
         }
-        /* footer */
-        .footer{
-            width: 100%;
-        }
-        .Terms , .icon-footer {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            width: 40%;
-            margin: 20pa auto;
-            gap: 10px;
-            align-content: center;
-           
-        }
-        .Terms small{
-            font-size: 0.75rem;
-        }
-    
-        .copy-right{
-            width: 80%;
-            
-        }
-    /* footer end */
     
     }
+
+     /* Medium Vieports end*/
+    /* laptops larger Vieports */
+    @media only screen and (min-width: 769px) and (max-width: 1279px){
+       
+        /* Banner section style start */
+        .bennar-section{
+            flex-direction: column-reverse;
+            width:100%;
+            margin: 0 auto;
+        }
+        .bannar-photo {
+            width:80%;
+            height: 100%;
+            margin: 0 auto; 
+            margin-bottom: 20px; 
+        }
+        .content  {
+            width:100%;
+            height: 400px;
+            margin: 0 auto;
+        }
+        .bennar-content{
+            width:80%;
+            margin: 0 auto; 
+            margin-bottom: 10px; 
+        }
+        .bannar-photo img{
+            width: 100%;
+            height: 100%;
+            
+        }
+    .banner-btn button{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+     /* Banner section style end */
+    /* Gamer section style start */
+    .gamer-section{
+        flex-direction: column;
+    }
+    .gamer-photo{
+        width: 100%;
+        height: 100%;
+        margin: 20px auto;
+    }
+    .gamer-content{
+        width:100%;
+        text-align: center;
+    }
+ 
+    /* Gamer section style end */
+    /* Online Games Funny Videos section style start */
+    .Videos-section{
+        width: 100%;
+        height: 100%;
+        margin: 90px auto;
+    }
+    .videos{
+        grid-template-columns: 1fr 1fr ;
+        row-gap:50px;
+       justify-content: center;
+    
+        align-items: center;
+    }
+    /* Online Games Funny Videos section style end  */
+    
+    .play-instantly{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        
+    }
+    .play-instantly-content p ,.play-any-content p{
+        text-align: center;
+        font-size: 1rem;
+      
+    }
+    .play-instantly-photo {
+        width: 550px;
+        height: 450px;
+        margin: 0 auto;
+    }
+    .play-instantly-content , .play-any-content{
+        width: 95%;
+        height: 400px;
+        margin: 50px auto;
+       
+        
+    }
+    .main-img ,.play-any-main-img{
+        width: 100%;
+        height:400px;
+        margin: 0 auto;
+    }
+    .main-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-img{
+        width: 150.5px;
+        height: 180.083px;
+        left: -30px;
+        bottom: -50px;
+           
+        }
+    
+        .play-any-pic-sec img{
+        width: 100%;
+        height: 100%;
+    }
+    .play-any-pic-sec{
+        width: 150.5px;
+        height: 150.083px;
+        right: -30px;
+        bottom: -50px;
+      
+        }
+        
+    
+    .sec-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* careers section start */
+    .careers{
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+    .careers-contant{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .content-dewscription h2{
+        font-size: 2rem;
+    ;}
+    
+   
+    
+    .careers-photo{
+        width: 60%;
+        height: 60%;
+        margin: 0px auto;
+    
+    }
+    .careers-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .game-items{
+        grid-template-columns:repeat(4, 1fr);
+        width: 100%;
+        align-items: center;
+    }
+    .game-item{
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        
+        font-size: 0.75rem;
+    }
+    .game-item p{
+        font-size: 0.75rem;
+        }
+        .items-photo{
+            width: 30px;
+            height: 30px;
+        }
+        .game-item img{
+            width: 100%;
+            height: 100%;
+        }
+    
+    }
+
+  /* laptops larger Vieports end */
         
