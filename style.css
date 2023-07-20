@@ -283,7 +283,9 @@ margin: 0 auto;
     opacity: 1;
     border-radius: 16px;
     border: 3px solid #FF42A5;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    cursor: pointer;
+    
   }
   .video-des{
     color: #534C64;
@@ -383,7 +385,7 @@ margin: 0 auto;
 /* careers section start */
 .careers{
     max-width: 1920px;
-    margin: 60px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,7 +426,7 @@ margin: 0 auto;
 }
 .careers-job p{
     color: #FFF;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 20px;
 
@@ -441,21 +443,26 @@ margin: 0 auto;
 }
 /* careers section end */
 /* game items style start  */
-.game-items{
+.game-button{
     max-width: 1920px;
-    height: 250px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    height: 480px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin: 0 auto;
-    justify-content: space-around;
+
+}
+.game-items{
+    width: 80%;
+    height: 350px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
     row-gap: 5px;
     align-items: center;
 }
 .game-item{
     display: flex;
     align-items: center;
-    width: 220px;
+    width: 230px;
     height: 80px;
     border-radius: 50px;
     background: #FFF;
@@ -472,6 +479,7 @@ margin: 0 auto;
 .items-photo{
     width: 60px;
     height: 60px;
+    margin-right: 8px;
 }
 .game-item img{
     width: 100%;
@@ -508,7 +516,7 @@ margin: 0 auto;
        
         color: #FFF;
         text-align: center;
-        font-size: 1.20rem;
+        font-size: 1rem;
         font-weight: 600;
         margin-right: 30px;
     }

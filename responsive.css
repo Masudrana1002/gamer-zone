@@ -194,6 +194,7 @@
 }
 
 .game-items{
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     align-items: center;
@@ -292,6 +293,7 @@
         padding: 10px 20px;
         font-size: 1rem;
     }
+    
      /* Banner section style end */
     /* Gamer section style start */
     .gamer-section{
@@ -455,6 +457,11 @@
             width: 100%;
             height: 100%;
         }
+        .game-items{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            align-items: center;}
         /* footer */
         .footer{
             height: 300px;
@@ -464,7 +471,8 @@
         width: 80%;
         margin: auto;
     }
-    }
+} 
+
 
      /* Medium Vieports end*/
     /* laptops larger Vieports */
@@ -529,8 +537,15 @@
         margin: 0 auto;
       }
       .online-game{
-        grid-template-columns:1fr  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         height: 950px;
+        
+      }
+
+      .online-game{
+        grid-template-columns: 1fr 1fr;
+        height: 1060px;
+        margin-bottom: 20px;
         
       }
     /* Online Games Funny Videos section style end  */
@@ -540,6 +555,7 @@
         width: 100%;
         height: 600px;
         margin: 0 auto;
+       
         
     }
     .play-instantly-content p ,.play-any-content p{
@@ -587,8 +603,6 @@
         bottom: -50px;
       
         }
-        
-    
     .sec-img img{
         width: 100%;
         height: 100%;
@@ -640,7 +654,17 @@
             height: 100%;
         }
     
+        .careers{
+            width: 100%;
+            flex-direction: column-reverse;
+            margin-top: 150px;
+        }
+        .game-items{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            align-items: center;
     }
-
+}
   /* laptops larger Vieports end */
         
